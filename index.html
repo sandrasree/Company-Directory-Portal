@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Company Directory Portal</title>
+</head>
+<body>
+    <div class="container">
+      <h1>Company Directory Portal</h1>
+        <section class="form-section">
+          <h2>Employee Registration Form</h2>
+            <form id="Employee">
+            <div class="form-group">
+              <label for="fullname">Full Name:</label>
+              <input type="text" name="fullname" id="fullname" required>
+            </div>
+             <div class="form-group">
+                <label for="email">Email ID:</label>
+                <input type="email" name="email" id="email" required>
+              </div>
+              <div class="form-group">
+                <label for="Department">Department:</label>
+                <select name="Department" id="Department" required>
+                    <option value="IT">IT</option>
+                    <option value="Finance">Finance</option>
+                    <option value="HR">HR</option>
+                    <option value="Sales">Sales</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="employeeid">Employee ID:</label>
+                <input type="number" name="employeeid" id="employeeid" required>
+              </div>
+              <div class="form-group">
+                <label for="Profilepic">Profile Pic URL:</label>
+                <input type="url" name="Profilepic" id="Profilepic" required>
+              </div>
+              <button type="submit" class="btn">Register Employee</button>
+</form>
+    </section>
+    <section class="listsection">
+        <h2>Employee List</h2>
+        <ol id="emplist">
+            <li>
+                <a href="#">Alex Johnson - alex.johnson@example.com</a>
+            </li>
+            <li>
+                <a href="#">Emily Davis - emily.davis@example.com</a>
+            </li>
+        </ol>
+    </section>
+    <section class="table-section">
+      <h2>Employee Details</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Employee ID</th>
+            <th>Department</th>
+            <th>Profile Picture</th>  
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alex Johnson</td>
+            <td>2468</td>
+            <td>Finance</td>
+            <td>
+              <img src="https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=" alt="johnson profile">
+            </td>
+          </tr>
+          <tr>
+            <td>Emily Davis</td>
+            <td>1460</td>
+            <td>Marketing</td>
+            <td>
+              <img src="https://static.vecteezy.com/system/resources/thumbnails/037/098/807/small_2x/ai-generated-a-happy-smiling-professional-man-light-blurry-office-background-closeup-view-photo.jpg" alt="Davis profile">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="map-section">
+      <h2>Company Location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981141.626920916!2d73.02538598749997!3d12.982491300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15c10e34b885%3A0x7d017bc7833555b6!2sTHAR%20TECHNOLOGIES!5e0!3m2!1sen!2sin!4v1727541823678!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        
+      </iframe>
+    </section>
+</div>
+</body>
+</html>
